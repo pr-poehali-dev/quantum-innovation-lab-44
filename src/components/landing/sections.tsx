@@ -1,33 +1,35 @@
 import { Badge } from "@/components/ui/badge"
+import Icon from "@/components/ui/icon"
 
 export const sections = [
   {
     id: 'hero',
-    subtitle: <Badge variant="outline" className="text-white border-white">Набор открыт</Badge>,
-    title: "Время строить будущее.",
+    subtitle: <Badge variant="outline" className="text-white border-white/40 bg-white/5 backdrop-blur-sm px-4 py-1.5 text-sm font-medium tracking-widest uppercase">Доступно бесплатно</Badge>,
+    title: "Чат без границ. Zip Chat.",
+    content: "Молниеносный мессенджер для всех платформ. Один аккаунт — везде.",
     showButton: true,
-    buttonText: 'Присоединиться'
+    buttonText: 'Скачать бесплатно'
   },
   {
-    id: 'about',
-    title: 'Почему мы?',
-    content: 'Мы предоставляем ресурсы, менторство и поддерживающее сообщество для развития ваших проектов.'
+    id: 'platforms',
+    title: 'Работает везде.',
+    content: 'Windows, macOS, Linux, Android и iOS — Zip Chat всегда рядом, на любом устройстве.',
   },
   {
     id: 'features',
-    title: 'Что мы предлагаем',
-    content: 'Доступ к экспертным консультациям, нетворкингу и современным инструментам для ускорения вашего роста.'
+    title: 'Скорость — это всё.',
+    content: 'Мгновенная доставка сообщений, сквозное шифрование и синхронизация между устройствами в реальном времени.',
   },
   {
-    id: 'testimonials',
-    title: 'Истории успеха',
-    content: 'Узнайте, как участники сообщества превратили свои идеи в успешные проекты.'
+    id: 'security',
+    title: 'Ваши данные защищены.',
+    content: 'End-to-end шифрование по умолчанию. Никаких серверов третьих сторон, никакой слежки. Только вы и ваши собеседники.',
   },
   {
-    id: 'join',
-    title: 'Начните сейчас',
-    content: 'Готовы вывести свой проект на новый уровень? Присоединяйтесь к нашему сообществу и начните строить своё будущее.',
+    id: 'download',
+    title: 'Начните прямо сейчас.',
+    content: 'Zip Chat — бесплатно, без рекламы, без ограничений. Загрузите для своей платформы.',
     showButton: true,
-    buttonText: 'Начать'
+    buttonText: 'Скачать Zip Chat'
   },
 ]
